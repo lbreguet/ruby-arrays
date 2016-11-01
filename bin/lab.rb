@@ -19,5 +19,15 @@ puts five_element_array
 # Access all the elements starting at index 1.
 puts five_element_array.values_at(1, length-1)
 
+
+## Bonus ##
+# In bin/lab.rb use a block initializer with Array.new to create
+# a Ruby Array with ten elements where elements are equal to their
+# index multiplied by 2. Store the result and display it on the
+# console with puts <array name>.
+array_times_2 = Array.new(10) { |index| index * 2 }
+puts array_times_2
+
+
 # binding.pry
 # ""
