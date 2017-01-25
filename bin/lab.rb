@@ -1,5 +1,7 @@
 ## Lab ##
 
+working_array = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
 # Assign `20` to the element at `length+1`.
 
 # Access the 3rd element from the end of an array length of 5.
